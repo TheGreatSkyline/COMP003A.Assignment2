@@ -44,9 +44,9 @@ namespace COMP003A.Assignment2
             Console.WriteLine("**************************************************\n");
             // input for math
             Console.WriteLine("Enter an Integer for integer1: ");
-            string integer1 = Console.ReadLine();
+            int integer1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter an Integer for integer2:");
-            string integer2 = Console.ReadLine();
+            int integer2 = Convert.ToInt32(Console.ReadLine());
             // input for 'math
             // this will show the additon
             Console.WriteLine("This is the results of Additon: ");
@@ -82,7 +82,8 @@ namespace COMP003A.Assignment2
             // this will show the results
             Console.WriteLine($"The area is {area}.");
             Console.WriteLine($"The cricumference is {circumference}.");
+            Console.ReadKey();
         }
-        Console.ReadKey();
+        
     }
 }
